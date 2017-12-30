@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Polimorfismo
 {
-    class Curso
+    class Curso : ILista_Datos
     {
+        public void lista()
+        {
+            Console.WriteLine();
+        }
     }
 }

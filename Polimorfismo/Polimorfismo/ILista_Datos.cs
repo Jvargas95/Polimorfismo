@@ -8,5 +8,6 @@ namespace Polimorfismo
 {
     interface ILista_Datos
     {
+        void lista();
     }
 }
