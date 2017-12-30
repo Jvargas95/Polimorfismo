@@ -8,6 +8,8 @@ namespace Polimorfismo
 {
     class Curso : ILista_Datos
     {
+        public string NombreCurso { get; set; }
+
         public void lista()
         {
             Console.WriteLine();

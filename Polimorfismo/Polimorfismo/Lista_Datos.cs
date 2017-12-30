@@ -15,14 +15,14 @@ namespace Polimorfismo
 
         public List<T> ilista_datos{ get; set; }
 
-        public ILista_Datos()
+        public Lista_Datos()
         {
             this.ilista_datos = new List<T>();
         }
 
         public void Agregar(T item)
         {
-            lista.Add(item);
+            ilista_datos.Add(item);
         }
     }
 }
