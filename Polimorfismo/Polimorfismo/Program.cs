@@ -15,20 +15,18 @@ namespace Polimorfismo
 
             for (int i = 1; i <= 5; i++)
             {
-                ILista_Datos Estudiante = new Estudiante();
                 Estudiante estudiante = new Estudiante();
-                estudiante.NombreEstudiante = "Estudiante " + i;
-
+                estudiante.NombreEstudiante = "ESTUDIANTE " + i;
+                //estudiante.lista();
                 estudiantes.Agregar(estudiante);
             }
 
 
             for (int i = 1; i <= 5; i++)
-            {
-                ILista_Datos Curso = new Curso();
+            { 
                 Curso curso = new Curso();
                 curso.NombreCurso = "CURSO " + i;
-
+                //curso.lista();
                 cursos.Agregar(curso);
             }
 

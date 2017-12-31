@@ -13,7 +13,7 @@ namespace Polimorfismo
 
         public void lista()
         {
-            Console.WriteLine();
+            //Console.WriteLine("Estudiantes en la lista");
         }
     }
 }
